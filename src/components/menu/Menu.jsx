@@ -5,9 +5,9 @@ const Menu = () => {
     <div className={styles.menuBand}>
 <ul>
   <li><a href="#">Inicio</a></li>
-  <li><a href="#"></a>Séries</li>
-  <li><a href="#"></a>Filmes</li>
-  <li><a href="#"></a>Catálogo</li>
+  <li><a href="#">Séries</a></li>
+  <li><a href="#">Filmes</a></li>
+  <li><a href="#">Catálogo</a></li>
 </ul>
     </div>
   )

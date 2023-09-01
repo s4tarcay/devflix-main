@@ -42,7 +42,7 @@ const App = () => {
       </div>
       
       <div className="searchBar">
-      <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+      <ion-icon name="reorder-four-outline"></ion-icon>
         <Menu />
       </div>
       
