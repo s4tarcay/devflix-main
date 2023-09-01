@@ -12,8 +12,11 @@ import Menu from "../components/menu/Menu";
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [movies, setMovies] = useState([]);
+  const [isMenu, setMenu] = useState(true);
   const apiKey = "e4d577fa";
+
   const apiUrl = `https://omdbapi.com/?apikey=${apiKey}`;
+  
 
   useEffect(() => {
     searchMovies("Avengers");
@@ -31,9 +34,9 @@ const App = () => {
     e.key === "Enter" && searchMovies(searchTerm);
   };
 
-  // fetch(apiUrl)
-  //   .then((Response) => Response.json())
-  //   .then((data) => console.log(data));
+const toggMenu = () => {
+  setIsMenu(!isMenu);
+}
 
   return (
     <div id="app">
@@ -42,8 +45,8 @@ const App = () => {
       </div>
       
       <div className="searchBar">
-      <ion-icon name="reorder-four-outline"></ion-icon>
-        <Menu />
+      <ion-icon name="reorder-four-outline" onClick=(toggMenu) />
+        <Menu cli />
       </div>
       
       <div className="search">
