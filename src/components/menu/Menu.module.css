@@ -1,0 +1,16 @@
+.menuBand{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1000;
+    background: floralwhite;
+    top: 0;
+    left: 0;
+
+}
+
+.menuBand ul{
+    position: absolute;
+    top: 10em;
+
+}
