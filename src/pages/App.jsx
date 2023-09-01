@@ -7,7 +7,7 @@ import "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js";
 import "./App.css";
 import MovieCard from "../components/movieCard/movieCard";
 import Footer from "../components/footer/footer";
-import Menu from "../components/menu/menu";
+// import Menu from "../components/menu/menu";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -45,7 +45,7 @@ const App = () => {
 
       <div className="searchBar">
         <ion-icon  name="menu" onClick={toggleMenu} />
-        {isMenu && <Menu click={toggleMenu} />}
+        {/* {isMenu && <Menu click={toggleMenu} />} */}
         <div className="search">
           <input
             value={searchTerm}

@@ -3,7 +3,7 @@ import styles from "./menu.module.css";
 const Menu = ({ click }) => {
   return (
     <>
-      <div className={styles.fundoMenu}  onClick={click}></div>
+      <div className={styles.fundoMenu} onClick={click}></div>
       <div className={styles.menuBand}>
         <ul>
           <li>
