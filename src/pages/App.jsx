@@ -18,7 +18,7 @@ const App = () => {
   const apiUrl = `https://omdbapi.com/?apikey=${apiKey}`;
 
   useEffect(() => {
-    searchMovies("Batman");
+    searchMovies("Drácula");
   }, []);
 
   const searchMovies = async (title) => {
@@ -40,11 +40,11 @@ const App = () => {
   return (
     <div id="app">
       <div className="logo">
-        <img src={logo} alt="logo devflix" />
+      <h1>DEVFLIX</h1>
       </div>
 
       <div className="searchBar">
-        <ion-icon name="menu" onClick={toggleMenu} />
+        <ion-icon  name="menu" onClick={toggleMenu} />
         {isMenu && <Menu click={toggleMenu} />}
         <div className="search">
           <input

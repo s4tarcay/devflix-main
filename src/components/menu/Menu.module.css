@@ -18,7 +18,7 @@
     top: -1.3em;
     left: -1em;
     border-radius: 1em;
-    background: #f9d3b4;
+    background: #1c1c1c;
     width: 15em;
     height: 18em;
     padding: 0;
@@ -48,8 +48,8 @@
     align-items: center;
   }
   .menuBand ul li:hover {
-    background: #1f2123;
-    color: #f9d3b4;
+    background: #2c2f31;
+    color: #a92e2e;
     border-radius: 0.5em;
   }
   
